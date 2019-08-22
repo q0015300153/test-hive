@@ -8,7 +8,7 @@ class Hive extends Controller
 {
     public function test(Request $request)
     {
-	  	$hive = new \ThriftSQL\Hive('hive-server', 10000, 'root', 'root', 30);
+		$hive = new \ThriftSQL\Hive('hive-server', 10000, 'root', 'root', 30);
         $hiveTables = $hive
             ->connect()
             ->getIterator('SHOW TABLES');
