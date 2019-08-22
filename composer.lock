@@ -4,8 +4,57 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "94d4bf9ac7f4a933030e46a346ee2917",
+    "content-hash": "c85c1f3aa611e3d95bada08ce64c592f",
     "packages": [
+        {
+            "name": "automattic/php-thrift-sql",
+            "version": "v0.3.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Automattic/php-thrift-sql.git",
+                "reference": "c2d8d83260b8227a5753fdc2d96047676f1b3a20"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Automattic/php-thrift-sql/zipball/c2d8d83260b8227a5753fdc2d96047676f1b3a20",
+                "reference": "c2d8d83260b8227a5753fdc2d96047676f1b3a20",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5.0"
+            },
+            "require-dev": {
+                "theseer/autoload": "1.*"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "ThriftSQL.phar"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Xiao Yu",
+                    "role": "Developer",
+                    "email": "xyu@automattic.com",
+                    "homepage": "https://xyu.io"
+                }
+            ],
+            "description": "A PHP library for connecting to Hive or Impala over Thrift",
+            "homepage": "https://github.com/Automattic/php-thrift-sql",
+            "keywords": [
+                "Impala",
+                "database",
+                "hive",
+                "sql",
+                "thrift"
+            ],
+            "time": "2019-07-31T15:57:33+00:00"
+        },
         {
             "name": "dnoegel/php-xdg-base-dir",
             "version": "0.1",
